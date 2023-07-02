@@ -1,0 +1,9 @@
+---
+  - name: Play 1
+    hosts: wlcs
+    roles:
+      - common
+      - wlc_iosxe
+
+    
+    

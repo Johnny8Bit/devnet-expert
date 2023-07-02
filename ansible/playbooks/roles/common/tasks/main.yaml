@@ -1,0 +1,16 @@
+---
+  - name: GetFacts
+    cisco.ios.ios_facts:
+    when: ansible_network_os == 'cisco.ios.ios'
+      
+  - name: ShowFacts
+    debug:
+      var: ansible_facts
+
+  - name: BasicConfig_Common
+    cisco.ios.ios_config:
+      lines:
+        - ip name-server {{ name_server }}
+        - ntp server {{ ntp_server }}
+
+        

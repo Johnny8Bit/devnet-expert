@@ -1,0 +1,5 @@
+---
+  - name: BasicConfig_Wlc
+    cisco.ios.ios_config:
+      lines:
+        - ip route 0.0.0.0 0.0.0.0 {{ vlan6_gateway }}
