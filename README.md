@@ -1,2 +1,2 @@
 ### devnet-expert
-My DevNet Expert practice and dumping ground
+My DevNet Expert study area
