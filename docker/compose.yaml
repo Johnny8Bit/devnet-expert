@@ -1,0 +1,10 @@
+---
+name: devnet
+services:
+  webapp:
+    build: webapp
+    network_mode: host
+
+  webserver:
+    build: nginx
+    network_mode: host
