@@ -1,10 +1,11 @@
+import os
 import re
 from ncclient import manager
 import xml.etree.ElementTree as ET
 
-WLC_HOST = "192.168.6.8"
-WLC_USER = "admin"
-WLC_PASS = "C15coecats"
+WLC_HOST = os.environ["WLC_HOST"]
+WLC_USER = os.environ["WLC_USER"]
+WLC_PASS = os.environ["WLC_PASS"]
 
 WLC_MONITOR_INTERFACE = "Port-channel1"
 
