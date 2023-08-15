@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<devices xmlns="equipment">
+   <device type="router">
+      <os vendor="Cisco">IOS</os>
+      <version>15.2</version>
+   </device>
+   <device type="switch">
+      <os vendor="Cisco">IOS-XR</os>
+      <version>7.1</version>
+      <model>ASR9000</model>
+   </device>
+</devices>
