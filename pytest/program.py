@@ -14,7 +14,7 @@ def three():
 
     data = {
         "band_6ghz" : {
-            "clients" : 3
+            "clients" : []
             }
         }
 
